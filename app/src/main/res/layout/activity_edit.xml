@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddActivity">
+    tools:context=".EditActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -78,7 +78,8 @@
                 android:layout_height="40dp"
                 android:background="@color/purple_500"
                 android:textColor="@color/white"
-                android:text="SIMPAN"/>
+                android:text="SIMPAN PERUBAHAN"/>
         </com.dd.ShadowLayout>
     </com.andexert.library.RippleView>
+
 </LinearLayout>
